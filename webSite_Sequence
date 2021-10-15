@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-15T00:59:23.694Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="boLQMGCjdsDL0hpwc14F" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-15T02:56:12.104Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="9AP7hk3OsH97rJlaGqnA" version="15.5.2" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
-    <mxGraphModel dx="920" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-5" value="Teachable Machine" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=11;" parent="1" vertex="1">
-          <mxGeometry x="300" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="280" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="3nuBFxr9cyL0pnOWT2aG-6" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" parent="3nuBFxr9cyL0pnOWT2aG-5" vertex="1">
           <mxGeometry x="45" y="90" width="10" height="40" as="geometry" />
@@ -44,16 +44,32 @@
           <mxGeometry x="30" y="60" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9yLmeJDLHQ8wyFuvU4to-2" value="Login / SignUp" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="480" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="430" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="9yLmeJDLHQ8wyFuvU4to-3" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9yLmeJDLHQ8wyFuvU4to-2">
           <mxGeometry x="45" y="170" width="10" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9yLmeJDLHQ8wyFuvU4to-4" value="MySQL Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;fontSize=11;" vertex="1" parent="1">
-          <mxGeometry x="660" y="80" width="100" height="300" as="geometry" />
+          <mxGeometry x="600" y="80" width="100" height="300" as="geometry" />
         </mxCell>
         <mxCell id="9yLmeJDLHQ8wyFuvU4to-5" value="" style="points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="9yLmeJDLHQ8wyFuvU4to-4">
-          <mxGeometry x="45" y="180" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="180" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9yLmeJDLHQ8wyFuvU4to-26" value="회원정보 확인" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;exitX=0.893;exitY=0.331;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="9yLmeJDLHQ8wyFuvU4to-4" source="9yLmeJDLHQ8wyFuvU4to-5" target="9yLmeJDLHQ8wyFuvU4to-5">
+          <mxGeometry x="-0.2058" relative="1" as="geometry">
+            <mxPoint x="60" y="200" as="sourcePoint" />
+            <mxPoint x="140" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="200" />
+              <mxPoint x="100" y="200" />
+              <mxPoint x="140" y="200" />
+              <mxPoint x="140" y="220" />
+              <mxPoint x="120" y="220" />
+              <mxPoint x="80" y="220" />
+              <mxPoint x="70" y="220" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="9yLmeJDLHQ8wyFuvU4to-20" value="" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=11;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -67,6 +83,21 @@
             <mxPoint x="340" y="180" as="targetPoint" />
             <Array as="points">
               <mxPoint x="270" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yLmeJDLHQ8wyFuvU4to-25" value="회원정보 전송" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="270.0000000000001" as="sourcePoint" />
+            <mxPoint x="645" y="271" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9yLmeJDLHQ8wyFuvU4to-27" value="전송" style="verticalAlign=bottom;endArrow=block;shadow=0;strokeWidth=1;entryX=0.88;entryY=0.842;entryDx=0;entryDy=0;entryPerimeter=0;exitX=-0.093;exitY=0.82;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9yLmeJDLHQ8wyFuvU4to-5" target="9yLmeJDLHQ8wyFuvU4to-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="645" y="300" as="sourcePoint" />
+            <mxPoint x="490" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="310" />
             </Array>
           </mxGeometry>
         </mxCell>
