@@ -4,7 +4,7 @@
 This folder is related with Graduation Project
 
 ### Database E-R diagram
-![Random](DBERdiagram.png)
+![Random](DBERdiagram.PNG)
 ---
 ### Flow chart
-![Random](flowchart.png)
+![Random](flowchart.PNG)
