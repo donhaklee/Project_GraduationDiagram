@@ -2,9 +2,9 @@
 
 
 This folder is related with Graduation Project
-
-### Database E-R diagram
+---
+# Database E-R diagram
 ![Random](DBERdiagram.PNG)
 ---
-### Flow chart
+# Flow chart
 ![Random](flowchart.PNG)
