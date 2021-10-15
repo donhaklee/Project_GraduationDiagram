@@ -1,4 +1,4 @@
-# Project_GraduationERD
+# Graduation Project Diagram file
 
 This folder is related with Graduation Project
 
