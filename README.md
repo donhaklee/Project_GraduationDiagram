@@ -12,3 +12,9 @@ This folder is related with Graduation Project
 
 ---
 # Sequence Diagram
+### Drawing to Photo
+![Random](sequenceDTP.PNG)
+### Chatbot
+![Random](sequencechatbot.PNG)
+### Login, Register
+![Random](sequencelogin.PNG)
